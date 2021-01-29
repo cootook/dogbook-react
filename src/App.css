@@ -7,3 +7,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 60px 7fr 1fr;
+  grid-template-columns: 320px 1fr;
+  grid-template-areas: 
+    "header header"
+    "navbar main"
+    "footer footer";
+}

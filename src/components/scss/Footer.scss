@@ -1,5 +1,14 @@
 @import '../scss/root.scss';
 
+.footer_wrapper {
+  grid-area: footer;
+  width: 100%;
+  background: var(--footer-gradient-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer_content_img_puppy_img {
   width: inherit;
   height: inherit;
@@ -7,27 +16,13 @@
 
 .footer_content {
   width: 80%;
-  height: 65%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media (min-width: 1280px) {
 
-  .footer_wrapper {
-    width: 100%;
-    height: 15%;
-    background: var(--footer-gradient-background);
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  }
-
-  .footer_content {
-    display: flex;
-    justify-content: space-between;
-  }
-
   .footer_content_item {
-    height: 23.4rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -58,7 +53,6 @@
 
   .footer_content_item_img_wrapper {
     margin-right: 2rem;
-    height: 3.2rem;
   }
 
   .footer_content_item_text {
@@ -67,25 +61,15 @@
 
   .footer_content_img_puppy_wrapper {
     width: 30rem;
-    height: 31rem;
   }
 
 }
 
 @media (max-width: 1279px) and (min-width: 768px) {
 
-  .footer_wrapper {
-    width: 100%;
-    height: 40%;
-    background: var(--footer-gradient-background);
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  }
-
   .footer_content {
     display: grid;
-    grid-template-rows: 23.4rem 31rem;
+    grid-template-rows: 2fr 3fr;
     grid-template-columns: 49% 50%;
     grid-row-gap: 7.5rem;
     align-self: center;
@@ -93,7 +77,6 @@
   }
 
   .footer_content_item {
-    height: 23.4rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -124,7 +107,6 @@
 
   .footer_content_item_img_wrapper {
     margin-right: 2rem;
-    height: 3.2rem;
   }
 
   .footer_content_item_text {
@@ -134,27 +116,15 @@
   .footer_content_img_puppy_wrapper {
     width: 30rem;
     grid-column: 1 / 4;
-    height: 31.5rem;
   }
 
 }
 
 @media (max-width: 767px) and (min-width: 320px) {
 
-  .footer_wrapper {
-    width: 100%;
-    height: 70%;
-    background: var(--footer-gradient-background);
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  }
-
   .footer_content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .footer_content_item {
@@ -167,12 +137,10 @@
 
   .contact {
     width: 28rem;
-    height: 20.8rem;
   }
 
   .we_are {
     width: 30rem;
-    height: 22.2rem;
   }
 
   .footer_content_item_heading {
@@ -200,7 +168,6 @@
 
   .footer_content_item_img_wrapper {
     margin-right: 2rem;
-    height: 3.2rem;
   }
 
   .footer_content_item_text {
@@ -210,7 +177,6 @@
 
   .footer_content_img_puppy_wrapper {
     width: 26rem;
-    height: 26.9rem;
   }
 
 }

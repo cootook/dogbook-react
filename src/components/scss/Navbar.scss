@@ -1,0 +1,26 @@
+@import '../scss/root.scss';
+
+.nav--container {
+  background: var(--navbar-gradient-background);
+  color: var(--color-dark-3xl);
+  padding: 10px;
+}
+
+.nav--item--link {
+  color: inherit;
+  font-size: 24px;
+}
+
+.nav--item--profile-logo--container {
+  margin: 30px auto;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-image: url(../images/pets-charly.png);
+}
+
+.nav--item--profile-logo--link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

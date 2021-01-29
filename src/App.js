@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import './components/scss/Footer.scss';
-import './components/scss/Header.scss'
+import './components/scss/Header.scss';
+import './components/scss/Navbar.scss';
 import Footer from './components/jsx/Footer';
 import Header from './components/jsx/Header';
 import Navbar from './components/jsx/Navbar';
