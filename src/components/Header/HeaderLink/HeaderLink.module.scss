@@ -1,0 +1,61 @@
+@import '../../__scss/root.scss';
+
+@media (min-width: 1280px) {
+
+  .nav_menu_li {
+    color: var(--color-dark-s);
+  }
+
+  .nav_menu_li a:hover {
+    color: var(--color-light-s);
+  }
+
+  .nav_menu_li a:active {
+    border-bottom: 0.3rem solid var(--color-primary);
+  }
+
+  .link_active {
+    color: var(--color-light-s);
+    border-bottom: 0.3rem solid var(--color-primary);
+  }
+}
+
+@media (max-width: 1279px) and (min-width: 768px) {
+
+  .nav_menu_li {
+    color: var(--color-dark-s);
+  }
+
+  .nav_menu_li a:hover {
+    color: var(--color-light-s);
+  }
+
+  .nav_menu_li a:active {
+    border-bottom: 0.3rem solid var(--color-primary);
+  }
+
+  .link_active {
+    color: var(--color-light-s);
+    border-bottom: 0.3rem solid var(--color-primary);
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+
+  .nav_menu_li {
+    color: var(--color-dark-s);
+  }
+
+  .nav_menu_li a:hover {
+    color: var(--color-light-s);
+  }
+
+  .nav_menu_li a:active {
+    border-bottom: 0.3rem solid var(--color-primary);
+  }
+
+  .link_active {
+    color: var(--color-light-s);
+    border-bottom: 0.3rem solid var(--color-primary);
+  }
+}
