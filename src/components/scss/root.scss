@@ -83,7 +83,7 @@ h5 {
   color: var(--color-dark-l);
 }
 
-.paragraph-l {
+.paragraph_l {
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
@@ -92,37 +92,13 @@ h5 {
   color: var(--color-dark-l);
 }
 
-.paragraph-s {
+.paragraph_s {
   font-family: Arial;
   font-style: italic;
   font-weight: normal;
   font-size: 12px;
   line-height: 150%;
   color: var(--color-dark-l);
-}
-
-.burger_menu_wrapper {
-  display: none;
-}
-
-.start_screen_logo_title {
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 110%;
-  letter-spacing: 0.05em;
-  color: var(--color-primary);
-}
-
-.start_screen_logo_subtitle {
-  font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.1em;
-  color: var(--color-light-xl);
 }
 
 .card:hover {

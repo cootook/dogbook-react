@@ -1,17 +1,17 @@
 @import '../scss/root.scss';
 
-.nav--container {
+.nav__container {
   background: var(--navbar-gradient-background);
   color: var(--color-dark-3xl);
   padding: 10px;
 }
 
-.nav--item--link {
+.nav__item__link {
   color: inherit;
   font-size: 24px;
 }
 
-.nav--item--profile-logo--container {
+.nav__item__profile_logo__container {
   margin: 30px auto;
   width: 240px;
   height: 240px;
@@ -19,7 +19,7 @@
   background-image: url(../images/pets-charly.png);
 }
 
-.nav--item--profile-logo--link {
+.nav__item__profile_logo__link {
   display: block;
   width: 100%;
   height: 100%;
