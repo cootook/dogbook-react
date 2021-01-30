@@ -1,17 +1,29 @@
 @import '../scss/root.scss';
 
-.nav__container {
+.item {
+  transition: .5s;
+  padding-left: 12%;
+}
+
+.item:hover {
+  transition: .5s;
+  transform: scale(1.2) rotate(3deg);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.container {
   background: var(--navbar-gradient-background);
   color: var(--color-dark-3xl);
   padding: 10px;
 }
 
-.nav__item__link {
+.item__link {
   color: inherit;
   font-size: 24px;
 }
 
-.nav__item__profile_logo__container {
+.profile_logo__container {
+  transition: .5s;
   margin: 30px auto;
   width: 240px;
   height: 240px;
@@ -19,7 +31,13 @@
   background-image: url(../images/pets-charly.png);
 }
 
-.nav__item__profile_logo__link {
+.profile_logo__container:hover {
+  transition: .5s;
+  transform: scale(1.1) rotate(3deg);
+  border-radius: 10%;
+}
+
+.profile_logo {
   display: block;
   width: 100%;
   height: 100%;

@@ -1,22 +1,23 @@
 import React from 'react';
+import stl from '../scss/Header.module.scss';
 import imgBurger from '../icons/Burger.svg';
 
 export default function Header() {
   return (
-    <header className="start_screen_header">
-      <div className="start_screen_logo">
-        <div className="start_screen_logo_title">Dogbook</div>
-        <div className="start_screen_logo_subtitle">find your dog</div>
+    <header className={stl.header}>
+      <div className={stl.logo}>
+        <div className={stl.logo_title}>Dogbook</div>
+        <div className={stl.logo_subtitle}>find your dog</div>
       </div>
-      <div className="start_screen_nav_menu">
-          <ul className="start_screen_nav_menu_ul">
-              <li className="start_screen_nav_menu_li paragraph-l start_screen_link_active"><a href="#1">Join</a></li>
-              <li className="start_screen_nav_menu_li paragraph-l"><a href="#1">Find</a></li>
-              <li className="start_screen_nav_menu_li paragraph-l"><a href="#1">Help</a></li>
+      <div className={stl.nav_menu}>
+          <ul className={stl.nav_menu_ul}>
+              <li className={`${stl.nav_menu_li} ${stl.paragraph_l} ${stl.link_active}`}><a href="#1">Join</a></li>
+              <li className={`${stl.nav_menu_li} ${stl.paragraph_l}`}><a href="#1">Find</a></li>
+              <li className={`${stl.nav_menu_li} ${stl.paragraph_l}`}><a href="#1">Help</a></li>
           </ul>
       </div>
-      <div className="burger_menu_wrapper">
-          <img src={imgBurger} alt="menu" className="burger_menu"/>
+      <div className={stl.burger_menu_wrapper}>
+          <img src={imgBurger} alt="menu" className={stl.burger_menu}/>
       </div>
     </header>
   )
