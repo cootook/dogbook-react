@@ -1,5 +1,5 @@
 import React from 'react';
-import stl from '../scss/Navbar.module.scss';
+import stl from './Navbar.module.scss';
 // import profileLogo from '../images/pets-charly.png';
 
 export default function Navbar() {

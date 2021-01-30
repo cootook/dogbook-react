@@ -1,5 +1,5 @@
 import React from 'react';
-import stl from '../scss/Footer.module.scss';
+import stl from './Footer.module.scss';
 import imgMail from '../icons/icon-email.svg';
 import imgPhone from '../icons/icon-phone.svg';
 

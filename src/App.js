@@ -3,10 +3,10 @@ import './App.css';
 
 
 
-import Footer from './components/jsx/Footer';
-import Header from './components/jsx/Header';
-import Navbar from './components/jsx/Navbar';
-import Profile from './components/jsx/Profile';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+import Profile from './components/Profile/Profile';
 
 function App() {
   return (
