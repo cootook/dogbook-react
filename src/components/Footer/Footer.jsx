@@ -1,7 +1,7 @@
 import React from 'react';
 import stl from './Footer.module.scss';
-import imgMail from '../icons/icon-email.svg';
-import imgPhone from '../icons/icon-phone.svg';
+import imgMail from '../__icons/icon-email.svg';
+import imgPhone from '../__icons/icon-phone.svg';
 
 export default function Footer() {
   return (

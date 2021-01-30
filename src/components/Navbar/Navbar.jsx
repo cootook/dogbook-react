@@ -1,5 +1,6 @@
 import React from 'react';
 import stl from './Navbar.module.scss';
+import Link from './Link/Link';
 // import profileLogo from '../images/pets-charly.png';
 
 export default function Navbar() {
@@ -8,15 +9,15 @@ export default function Navbar() {
       <div className={`${stl.profile_logo__container}`}>
         <a href="#1" className={`${stl.item__link} ${stl.profile_logo}`}>
         </a></div>
-      <div className={stl.item}><a href="#1" className={stl.item__link}>News</a></div>
-      <div className={stl.item}><a href="#1" className={stl.item__link}>Profile</a></div>
-      <div className={stl.item}><a href="#1" className={stl.item__link}>Messages</a></div>
-      <div className={stl.item}><a href="#1" className={stl.item__link}>Communities</a></div>
-      <div className={stl.item}><a href="#1" className={stl.item__link}>Spots</a></div>
-      <div className={stl.item}><a href="#1" className={stl.item__link}>Clinics</a></div>
-      <div className={stl.item}><a href="#1" className={stl.item__link}>Instructors</a></div>
-      <div className={stl.item}><a href="#1" className={stl.item__link}>Map</a></div>
-      <div className={stl.item}><a href="#1" className={stl.item__link}>Settings</a></div>
+      <Link linkTitle='News' />
+      <Link linkTitle='Profile' />
+      <Link linkTitle='Messages' />
+      <Link linkTitle='Communities' />
+      <Link linkTitle='Spots' />
+      <Link linkTitle='Clinics' />
+      <Link linkTitle='Instructors' />
+      <Link linkTitle='Map' />
+      <Link linkTitle='Settings' />
     </nav>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import stl from './Header.module.scss';
-import imgBurger from '../icons/Burger.svg';
+import imgBurger from '../__icons/Burger.svg';
 
 export default function Header() {
   return (

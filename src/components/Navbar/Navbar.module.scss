@@ -1,4 +1,4 @@
-@import '../scss/root.scss';
+@import '../__scss/root.scss';
 
 .item {
   transition: .5s;
@@ -28,7 +28,7 @@
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background-image: url(../images/pets-charly.png);
+  background-image: url(../__images/pets-charly.png);
 }
 
 .profile_logo__container:hover {
