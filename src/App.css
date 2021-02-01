@@ -1,3 +1,5 @@
+@import './components/__scss/root.css';
+
 :root {
   font-size: 10px;
 }
@@ -18,4 +20,9 @@
     "header header"
     "navbar main"
     "footer footer";
+}
+
+.main-wrapper {
+  grid-area: main;
+  background: var(--main-gradient-background);
 }

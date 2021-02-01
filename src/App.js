@@ -10,6 +10,9 @@ function App() {
     <div className="wrapper">
       <Header />
       <Navbar />
+      <main className="main-wrapper">
+
+      </main>
       <Profile />
       <Footer />
     </div>
