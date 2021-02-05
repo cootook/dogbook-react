@@ -1,20 +1,27 @@
 import React from 'react';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
-import Profile from './components/Profile/Profile';
+import MainWrapper from './MainWrapper/MainWrapper';
 
 function App() {
   return (
-    <div className="wrapper">
-      <Header />
-      <Navbar />
-      <main className="main-wrapper">
+    <div className="w">
+      <BrowserRouter>
 
-      </main>
-      <Profile />
-      <Footer />
+        <Header />
+        <Navbar />
+
+        <Switch>
+          <MainWrapper />
+        </Switch>
+
+        <Footer />
+
+      </BrowserRouter>
+
     </div>
   );
 }

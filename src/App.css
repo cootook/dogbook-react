@@ -10,7 +10,7 @@
   box-sizing: border-box;
 }
 
-.wrapper {
+.w {
   width: 100vw;
   height: 100vh;
   display: grid;
@@ -20,9 +20,4 @@
     "header header"
     "navbar main"
     "footer footer";
-}
-
-.main-wrapper {
-  grid-area: main;
-  background: var(--main-gradient-background);
 }
