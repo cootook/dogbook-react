@@ -9,8 +9,7 @@ export default function Navbar() {
     <nav className={stl.container}>
       <BrowserRouter>
         <div className={`${stl.profile_logo__container}`}>
-          <Link to='Profile' className={`${stl.item__link} ${stl.profile_logo}`}>
-          </Link>
+          <Link to='Profile' className={`${stl.item__link} ${stl.profile_logo}`}></Link>
         </div>
 
         <NavLink linkTitle='News' />
