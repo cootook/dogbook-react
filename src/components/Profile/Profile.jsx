@@ -3,7 +3,7 @@ import s from './Profile.module.scss';
 
 export default function Profile() {
   return (
-    <main className="main">
+    <main className={s.p}>
       <div className="profile--header-img--container"></div>
       <div className="ava">ava + description</div>
       <div className="posts">

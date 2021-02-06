@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -9,18 +9,15 @@ import MainWrapper from './MainWrapper/MainWrapper';
 function App() {
   return (
     <div className="w">
-      <BrowserRouter>
 
-        <Header />
-        <Navbar />
+      <Header />
+      <Navbar />
 
-        <Switch>
-          <MainWrapper />
-        </Switch>
+      <Switch>
+        <MainWrapper />
+      </Switch>
 
-        <Footer />
-
-      </BrowserRouter>
+      <Footer />
 
     </div>
   );

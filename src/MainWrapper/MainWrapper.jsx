@@ -1,17 +1,12 @@
 import React from 'react';
 import s from './MainWrapper.module.scss';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Profile from '../components/Profile/Profile';
+import Messages from '../components/Messages/Messages';
 
 export default function MainWrapper() {
   return (
     <main className={s.main}>
-      {/* <BrowserRouter> */}
-      {/* <Switch> */}
-
-      <Route exact path='/' >
-        HOME
-          </Route>
 
       <Route path='/News' >
         News
@@ -19,9 +14,7 @@ export default function MainWrapper() {
 
       <Route path='/Profile' component={Profile} />
 
-      <Route path='/Messages'>
-        Messages
-          </Route>
+      <Route path='/Messages' component={Messages} />
 
       <Route path='/Communities'>
         Communities
@@ -46,8 +39,11 @@ export default function MainWrapper() {
       <Route path='/Settings'>
         desrgar Settings
           </Route>
-      {/* </Switch> */}
-      {/* </BrowserRouter> */}
+
+      <Route exact path='/' >
+        HOME
+          </Route>
+
     </main>
   )
 }

@@ -1,0 +1,19 @@
+@import '../__scss/root.css';
+
+.m {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  font-size: 2rem;
+
+}
+
+// .item:hover {
+//   transition: .5s;
+//   transform: scale(1.2) rotate(3deg);
+//   background-color: rgba(0, 0, 0, 0.2);
+// }
+
+// .item__link {
+//   color: inherit;
+//   font-size: 24px;
+// }
