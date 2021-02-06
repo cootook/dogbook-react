@@ -5,9 +5,9 @@ import UserDialogLink from './UserDialogLink/UserDialogLink';
 export default function Dialogs(props) {
   return (
     <div className={stl.d}>
-      <UserDialogLink userName='Liza' />
-      <UserDialogLink userName='Dima' />
-      <UserDialogLink userName='Valek' />
+      <UserDialogLink userName='Liza' id='1' />
+      <UserDialogLink userName='Dima' id='2' />
+      <UserDialogLink userName='Valek' id='3' />
     </div>
   )
 }

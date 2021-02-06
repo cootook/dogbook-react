@@ -1,0 +1,45 @@
+.p {
+  font-size: 2rem;
+  // display: grid;
+}
+
+.wallpaper {
+  width: inherit;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-template-rows: 120px;
+  justify-content: space-between;
+  align-content: center;
+  grid-column-gap: 10px;
+
+
+  img {
+    width: inherit;
+  }
+}
+
+.ava {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+
+  img {
+    width: inherit;
+  }
+}
+
+.name {
+  h2 {
+    font-weight: bold;
+    color: var(--color-default);
+  }
+
+  display: grid;
+  align-items: center;
+  justify-content: start;
+
+}
