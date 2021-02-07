@@ -16,6 +16,7 @@
   --footer-gradient-background: url(../__images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
   --navbar-gradient-background: url(../__images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, var(--color-dark-s) 0%, var(--color-default) 100%), var(--color-dark-xl);
   --main-gradient-background: url(../__images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #F1CDB3 0%,  #545454 100%), #292929;
+  --section-gradient-background: url(../__images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #f1cdb356 0%,  #54545438 100%), #29292927;
 }
 
 a {

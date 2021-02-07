@@ -3,6 +3,11 @@
 .d {
   transition: .5s;
   padding-left: 12%;
+  background: var(--section-gradient-background);
+}
+
+.li {
+  margin-bottom: 10px;
 }
 
 // .d:hover {
