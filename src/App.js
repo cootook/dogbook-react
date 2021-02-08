@@ -1,5 +1,4 @@
 import React from 'react';
-import { Switch } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -13,9 +12,7 @@ function App(props) {
       <Header />
       <Navbar />
 
-      <Switch>
-        <MainWrapper dialogs={props.dialogs} posts={props.posts} />
-      </Switch>
+      <MainWrapper dialogs={props.dialogs} posts={props.posts} />
 
       <Footer />
 

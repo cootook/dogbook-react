@@ -10,6 +10,16 @@ export default function Posts(props) {
       <section>
         {props.post}
       </section>
+      <div className={s.like}>Like {props.like}.</div>
+      <div className={s.dislike}>Dislike {props.dislike}.</div>
+      <div className={s.comment}>
+        <div className={s.userLogo}>
+
+        </div>
+        <div className={s.commentText}>
+          text
+        </div>
+      </div>
     </div>
   )
 }
