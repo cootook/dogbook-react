@@ -12,11 +12,11 @@ export default function MainWrapper(props) {
         News
           </Route>
 
-      <Route path='/Profile' component={Profile} >
+      <Route path='/Profile' >
         <Profile posts={props.posts} />
       </Route>
 
-      <Route path='/Messages' component={Messages} >
+      <Route path='/Messages' >
         <Messages dialogs={props.dialogs} />
       </Route>
 
