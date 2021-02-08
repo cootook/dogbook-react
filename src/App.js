@@ -6,7 +6,7 @@ import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import MainWrapper from './MainWrapper/MainWrapper';
 
-function App() {
+function App(props) {
   return (
     <div className="w">
 
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
 
       <Switch>
-        <MainWrapper />
+        <MainWrapper dialogs={props.dialogs} posts={props.posts} />
       </Switch>
 
       <Footer />

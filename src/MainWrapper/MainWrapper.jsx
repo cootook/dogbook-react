@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom';
 import Profile from '../components/Profile/Profile';
 import Messages from '../components/Messages/Messages';
 
-export default function MainWrapper() {
+export default function MainWrapper(props) {
   return (
     <main className={s.main}>
 
@@ -12,9 +12,13 @@ export default function MainWrapper() {
         News
           </Route>
 
-      <Route path='/Profile' component={Profile} />
+      <Route path='/Profile' component={Profile} >
+        <Profile posts={props.posts} />
+      </Route>
 
-      <Route path='/Messages' component={Messages} />
+      <Route path='/Messages' component={Messages} >
+        <Messages dialogs={props.dialogs} />
+      </Route>
 
       <Route path='/Communities'>
         Communities
