@@ -3,7 +3,7 @@ import stl from './Dialogs.module.scss';
 import UserDialogLink from './UserDialogLink/UserDialogLink';
 
 export default function Dialogs(props) {
-  const dialogsFromArr = (arr) => {
+  const DialogsFromArr = (arr) => {
     return arr.map((d, i) => {
       return <UserDialogLink key={i * arr.length} userName={d.name} id={d.id} />
     })
@@ -11,7 +11,7 @@ export default function Dialogs(props) {
 
   return (
     <div className={stl.d}>
-      {dialogsFromArr(props.users)}
+      {DialogsFromArr(props.users)}
     </div>
   )
 }

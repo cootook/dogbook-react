@@ -13,11 +13,11 @@ export default function MainWrapper(props) {
           </Route>
 
       <Route path='/Profile' >
-        <Profile posts={props.posts} />
+        <Profile posts={props.state.profilePage.posts} />
       </Route>
 
       <Route path='/Messages' >
-        <Messages dialogs={props.dialogs} />
+        <Messages messages={props.state.messagesPage} />
       </Route>
 
       <Route path='/Communities'>

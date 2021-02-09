@@ -12,7 +12,7 @@ function App(props) {
       <Header />
       <Navbar />
 
-      <MainWrapper dialogs={props.dialogs} posts={props.posts} />
+      <MainWrapper state={props.state} />
 
       <Footer />
 

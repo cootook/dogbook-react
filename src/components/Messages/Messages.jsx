@@ -6,8 +6,8 @@ import stl from './Messages.module.scss';
 export default function Messages(props) {
   return (
     <div className={stl.m}>
-      <Dialogs users={props.dialogs.users} />
-      <Dialog />
+      <Dialogs users={props.messages.dialogs} />
+      <Dialog dialog={props.messages.dialog} />
     </div>
   )
 }
