@@ -1,8 +1,8 @@
 import React from 'react';
 import s from './MainWrapper.module.scss';
 import { Route } from 'react-router-dom';
-import Profile from '../components/Profile/Profile';
-import Messages from '../components/Messages/Messages';
+import Profile from '../Profile/Profile';
+import Messages from '../Messages/Messages';
 
 export default function MainWrapper(props) {
   return (

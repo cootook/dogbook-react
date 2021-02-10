@@ -3,14 +3,14 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
-import MainWrapper from './MainWrapper/MainWrapper';
+import MainWrapper from './components/MainWrapper/MainWrapper';
 
 function App(props) {
   return (
     <div className="w">
 
       <Header />
-      <Navbar />
+      <Navbar state={props.state} />
 
       <MainWrapper state={props.state} />
 

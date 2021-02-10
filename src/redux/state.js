@@ -1,4 +1,21 @@
 const state = {
+  navBar: {
+    items: [
+      'News',
+      'Profile',
+      'Messages',
+      'Communities',
+      'Spots',
+      'Clinics',
+      'Instructors',
+      'Map',
+      'Settings'
+    ],
+    bestFriends: [
+      1, 2, 3
+    ]
+  },
+
   newsPage: {
 
   },
@@ -106,7 +123,15 @@ const state = {
   },
   settingsPage: {
 
-  }
+  },
+
+  users: [
+    { id: 1, name: 'Liza', scndName: 'Kutyrsina', friends: [2, 3, 4, 5] },
+    { id: 2, name: 'Dima', scndName: 'Kutyrsin', friends: [1, 3, 4, 5] },
+    { id: 3, name: 'Valek', scndName: 'Romanov', friends: [2, 1, 4, 5] },
+    { id: 4, name: 'Friend', scndName: 'Friendoff', friends: [2, 3, 1, 5] },
+    { id: 5, name: 'Cootook', scndName: 'Ku', friends: [2, 3, 4, 1] },
+  ]
 }
 
 export default state;
