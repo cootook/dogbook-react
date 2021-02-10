@@ -5,9 +5,9 @@ import Message from './Message/Message';
 
 export default function Dialog(props) {
 
-  const MessFromArr = (props) => {
+  const MessFromArr = (dialog) => {
     // my id is 5
-    return props.map((m, i) => {
+    return dialog.dialog.map((m, i) => {
       const path = `/Messages/${m.id}`;
       return (
         <Route path={path}>
@@ -20,7 +20,8 @@ export default function Dialog(props) {
 
   return (
     <div className={stl.d}>
-      {MessFromArr(props.dialog)}
+      <MessFromArr dialog={props.dialog} />
+      {/* {MessFromArr(props.dialog)} */}
     </div>
   )
 }

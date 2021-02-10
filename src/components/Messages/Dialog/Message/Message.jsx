@@ -12,14 +12,14 @@ export default function Message(props) {
     )
   }
   const MessageItems = (arr) => {
-    return arr.map(item => {
+
+    return arr.messages.map(item => {
       return <MessageItem id={item.id} message={item.message} />
     })
   }
   return (
     <div className={stl.m}>
-      {console.log(props.message)}
-      <MessageItems messages={props.message} />
+      <MessageItems messages={props.messages} />
     </div>
   )
 }

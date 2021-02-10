@@ -2,15 +2,8 @@
 
 .d {
   transition: .5s;
-  padding-left: 12%;
+  padding: 0 5px;
   font-size: 2rem;
   background: var(--section-gradient-background);
-}
-
-.mRight {
-  text-align: right;
-}
-
-.mLeft {
-  text-align: left;
+  width: 100%;
 }
