@@ -6,7 +6,7 @@ export default function NavbarLinks(props) {
   return props.linkTitles.map(linkTitle => {
     return (
       <div className={stl.item}>
-        <Link to={`/${linkTitle}`} className={stl.item__link}>{linkTitle}</Link>
+        <Link to={`/${linkTitle}`} className={stl.item__link} activeClassName={stl.active}>{linkTitle}</Link>
       </div>
     )
   })

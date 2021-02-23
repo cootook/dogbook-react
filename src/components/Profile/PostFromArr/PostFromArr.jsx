@@ -13,6 +13,12 @@ export default function PostFromArr(props) {
   return (
 
     <div className={s.posts}>
+      <div>
+        <textarea name="new post" id="123" cols="50" rows="10"></textarea>
+      </div>
+      <div>
+        <button>add post</button>
+      </div>
       {generatePosts(props.postArr)}
 
     </div>
