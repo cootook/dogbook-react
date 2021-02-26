@@ -1,3 +1,5 @@
+import renderEntireTree from "../render";
+
 const state = {
   navBar: {
     items: [
@@ -134,4 +136,17 @@ const state = {
   ]
 }
 
+export const addPost = (postMessage) => {
+  const newPost = {
+    title: '',
+    text: postMessage,
+    like: 0,
+    dislike: 0,
+    comments: []
+  }
+
+  state.profilePage.posts.unshift(newPost);
+
+  renderEntireTree(state);
+};
 export default state;

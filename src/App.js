@@ -12,7 +12,7 @@ function App(props) {
       <Header />
       <Navbar state={props.state} />
 
-      <MainWrapper state={props.state} />
+      <MainWrapper state={props.state} addPost={props.addPost} />
 
       <Footer />
 

@@ -14,7 +14,7 @@ export default function Profile(props) {
   return (
     <div className={s.p}>
       <ProfileInfo />
-      <PostFromArr postArr={props.posts} />
+      <PostFromArr postArr={props.posts} addPost={props.addPost} />
     </div>
   )
 }

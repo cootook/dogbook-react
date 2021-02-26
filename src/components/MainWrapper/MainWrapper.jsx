@@ -13,7 +13,7 @@ export default function MainWrapper(props) {
           </Route>
 
       <Route path='/Profile' >
-        <Profile posts={props.state.profilePage.posts} />
+        <Profile posts={props.state.profilePage.posts} addPost={props.addPost} />
       </Route>
 
       <Route path='/Messages' >
