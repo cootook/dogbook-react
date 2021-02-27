@@ -10,8 +10,13 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+}
+
 .w {
   display: grid;
+  height: 100%;
   grid-template-rows: 60px 7fr 1fr;
   grid-template-columns: 320px 1fr;
   grid-template-areas: 
